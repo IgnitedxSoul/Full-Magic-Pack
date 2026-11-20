@@ -54,6 +54,7 @@ languages := [
 		is_case			  : match@(match: "(?i)Fall")
 		is_room			  : match@(match: "(?i)Raum")
 		is_adventure	  : match@(match: "(?i)Abenteuer")
+		is_omen			  : match@(match: "(?i)Omen")
 		is_nyx			  : match@(match: "(?i)Verzauberungs")
 		is_saga			  : match@(match: "(?i)Sage")
 		is_vehicle        : match@(match: "(?i)Fahrzeug")
@@ -167,6 +168,7 @@ languages := [
 			+ "Ausrüstung,"
 			+ "Befestigung,"
 			+ "Blut,"
+			+ "Buch,"
 			+ "Fahrzeug,"
 			+ "Gerät,"
 			+ "Gold,"
@@ -224,6 +226,7 @@ languages := [
 			+ "Aminatou,"
 			+ "Angrath,"
 			+ "Arlinn,"
+			+ "Arzakon,"
 			+ "Ashiok,"
 			+ "Bahamut,"
 			+ "Basri,"
@@ -235,16 +238,20 @@ languages := [
 			+ "Dakkon,"
 			+ "Daretti,"
 			+ "Davriel,"
+			+ "Dellian,"
 			+ "Dihada,"
 			+ "Domri,"
 			+ "Dovin,"
+			+ "Dyfed,"
 			+ "Ellywick,"
 			+ "Elminster,"
 			+ "Elspeth,"
 			+ "Estrid,"
+			+ "Feroz,"
 			+ "Freyalise,"
 			+ "Garruk,"
 			+ "Gideon,"
+			+ "Greensleeves,"
 			+ "Grist,"
 			+ "Guff,"
 			+ "Huatli,"
@@ -276,6 +283,7 @@ languages := [
 			+ "Samut,"
 			+ "Sarkhan,"
 			+ "Serra,"
+			+ "Sifa,"
 			+ "Sivitri,"
 			+ "Sorin,"
 			+ "Szat,"
@@ -285,6 +293,7 @@ languages := [
 			+ "Teyo,"
 			+ "Tezzeret,"
 			+ "Thibalt,"
+			+ "Thomil,"
 			+ "Tyvar,"
 			+ "Ugin,"
 			+ "Urza,"
@@ -294,6 +303,7 @@ languages := [
 			+ "Vronos,"
 			+ "Will,"
 			+ "Windgrace,"
+			+ "Worzel,"
 			+ "Wrenn,"
 			+ "Xenagos,"
 			+ "Yanggu,"
@@ -323,6 +333,7 @@ languages := [
 			+ "Bestie,"
 			+ "Betrachter,"
 			+ "Biber,"
+			+ "Bison,"
 			+ "Blinkmotte,"
 			+ "Bobbel,"
 			+ "Bold,"
@@ -355,7 +366,8 @@ languages := [
 			+ "Elefant,"
 			+ "Elementarwesen,"
 			+ "Elf,"
-			+ "Engel",
+			+ "Engel,"
+			+ "Eternal",
 
 			  "Faultier,"
 			+ "Feenwesen,"
@@ -367,10 +379,12 @@ languages := [
 			+ "Frosch,"
 			+ "Fuchs",
 
-			  "Gargoyle,"
+			  "Gamma,"
+			+ "Gargoyle,"
 			+ "Gehäuseschnecke,"
 			+ "Geist,"
 			+ "Gestaltwandler,"
+			+ "Giraffe,"
 			+ "Gith,"
 			+ "Gnoll,"
 			+ "Gnom,"
@@ -399,6 +413,7 @@ languages := [
 			  "Ifrit,"
 			+ "Igel,"
 			+ "Illusion,"
+			+ "Inhuman,"
 			+ "Inkarnation,"
 			+ "Insekt",
 
@@ -406,6 +421,7 @@ languages := [
 
 			  "Kalmar,"
 			+ "Kamel,"
+			+ "Känguru,"
 			+ "Kaninchen,"
 			+ "Karibu,"
 			+ "Katze,"
@@ -417,15 +433,18 @@ languages := [
 			+ "Kobold,"
 			+ "Kojote,"
 			+ "Konstrukt,"
-			+ "Kor,"
-			+ "Krabbe,"
+			+ "Kor",
+
+			  "Krabbe,"
 			+ "Krake,"
+			+ "Kree,"
 			+ "Krokodil",
 
 			  "Lama,"
 			+ "Lamia,"
 			+ "Lammasu,"
 			+ "Leiche,"
+			+ "Lemur,"
 			+ "Leviathan,"
 			+ "Lhurgoyf",
 
@@ -474,7 +493,8 @@ languages := [
 			+ "Pilzwesen,"
 			+ "Plasma",
 
-			  "Qualle",
+			  "Q,"
+			+ "Qualle",
 
 			  "Ratte,"
 			+ "Reflexion,"
@@ -498,17 +518,19 @@ languages := [
 			+ "Schlachtschiff,"
 			+ "Schlammwesen,"
 			+ "Schlange,"
+			+ "Schnabeltier,"
 			+ "Schnecke,"
 			+ "Schrecken,"
 			+ "Schuppentier,"
-			+ "Schwamm,"
-			+ "Seestern,"
-			+ "Seltsamkeit,"
-			+ "Servo",
+			+ "Schwamm",
 
-			  "Sirene,"
+			  "Seestern,"
+			+ "Seltsamkeit,"
+			+ "Servo,"
+			+ "Sirene,"
 			+ "Skelett,"
 			+ "Skorpion,"
+			+ "Skrull,"
 			+ "Skulptur,"
 			+ "Slith,"
 			+ "Soltari,"
@@ -517,13 +539,13 @@ languages := [
 			+ "Sphinx,"
 			+ "Spielzug,"
 			+ "Spinne,"
-			+ "Splitter,"
-			+ "Stachel,"
+			+ "Splitter",
+
+			  "Stachel,"
 			+ "Stachelschwein,"
 			+ "Stinktier,"
-			+ "Surrakar",
-
-			  "Symbiont,"
+			+ "Surrakar,"
+			+ "Symbiont,"
 			+ "Synth",
 
 			  "Tentakel,"
@@ -541,7 +563,8 @@ languages := [
 			+ "Troll",
 
 			  "Überträger,"
-			+ "Ungeziefer",
+			+ "Ungeziefer,"
+			+ "Utrom",
 
 			  "Vampir,"
 			+ "Vedalken,"
@@ -616,6 +639,7 @@ languages := [
 			+ "Krieger,"
 			+ "Leibeigene,"
 			+ "Leviathan,"
+			+ "Magier,"
 			+ "Mönch,"
 			+ "Monteur,"
 			+ "Mutant,"
@@ -641,10 +665,11 @@ languages := [
 			+ "Söldner,"
 			+ "Späher,"
 			+ "Spielzug,"
-			+ "Spruchwandler,"
-			+ "Thopter",
+			+ "Spion,"
+			+ "Spruchwandler",
 
-			  "Uberlebender,"
+			  "Thopter,"
+			+ "Uberlebender,"
 			+ "Überträger,"
 			+ "Vampir,"
 			+ "Verbündeter,"
@@ -820,6 +845,7 @@ languages := [
 		is_case			  : match@(match: "(?i)Case")
 		is_room			  : match@(match: "(?i)Room")
 		is_adventure	  : match@(match: "(?i)Adventure")
+		is_omen			  : match@(match: "(?i)Omen")
 		is_nyx			  : match@(match: "(?i)Enchantment ")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Vehicle")
@@ -931,6 +957,7 @@ languages := [
 			  "Attraction,"
 			+ "Blood,"
 			+ "Bobblehead,"
+			+ "Book,"
 			+ "Clue,"
 			+ "Contraption,"
 			+ "Equipment,"
@@ -990,6 +1017,7 @@ languages := [
 			+ "Aminatou,"
 			+ "Angrath,"
 			+ "Arlinn,"
+			+ "Arzakon,"
 			+ "Ashiok,"
 			+ "Bahamut,"
 			+ "Basri,"
@@ -1001,16 +1029,20 @@ languages := [
 			+ "Dakkon,"
 			+ "Daretti,"
 			+ "Davriel,"
+			+ "Dellian,"
 			+ "Dihada,"
 			+ "Domri,"
 			+ "Dovin,"
+			+ "Dyfed,"
 			+ "Ellywick,"
 			+ "Elminster,"
 			+ "Elspeth,"
 			+ "Estrid,"
+			+ "Feroz,"
 			+ "Freyalise,"
 			+ "Garruk,"
 			+ "Gideon,"
+			+ "Greensleeves,"
 			+ "Grist,"
 			+ "Guff,"
 			+ "Huatli,"
@@ -1042,6 +1074,7 @@ languages := [
 			+ "Samut,"
 			+ "Sarkhan,"
 			+ "Serra,"
+			+ "Sifa,"
 			+ "Sivitri,"
 			+ "Sorin,"
 			+ "Szat,"
@@ -1050,6 +1083,7 @@ languages := [
 			+ "Teferi,"
 			+ "Teyo,"
 			+ "Tezzeret,"
+			+ "Thomil,"
 			+ "Tibalt,"
 			+ "Tyvar,"
 			+ "Ugin,"
@@ -1060,6 +1094,7 @@ languages := [
 			+ "Vronos,"
 			+ "Will,"
 			+ "Windgrace,"
+			+ "Worzel,"
 			+ "Wrenn,"
 			+ "Xenagos,"
 			+ "Yanggu,"
@@ -1141,6 +1176,7 @@ languages := [
 			+ "Elephant,"
 			+ "Elf,"
 			+ "Elk,"
+			+ "Eternal,"
 			+ "Eye",
 
 			  "Faerie,"
@@ -1155,6 +1191,7 @@ languages := [
 			+ "Gargoyle,"
 			+ "Germ,"
 			+ "Giant,"
+			+ "Giraffe,"
 			+ "Gith,"
 			+ "Glimmer,"
 			+ "Gnoll,"
@@ -1187,6 +1224,7 @@ languages := [
 			  "Illusion,"
 			+ "Imp,"
 			+ "Incarnation,"
+			+ "Inhuman,"
 			+ "Inkling,"
 			+ "Insect",
 
@@ -1200,7 +1238,8 @@ languages := [
 			+ "Kithkin,"
 			+ "Kobold,"
 			+ "Kor,"
-			+ "Kraken",
+			+ "Kraken,"
+			+ "Kree",
 
 			  "Lamia,"
 			+ "Lammasu,"
@@ -1256,6 +1295,7 @@ languages := [
 			+ "Phyrexian,"
 			+ "Pincher,"
 			+ "Plant,"
+			+ "Platypus,"
 			+ "Possum,"
 			+ "Prism,"
 			+ "Procupine",
@@ -1429,13 +1469,14 @@ languages := [
 			+ "Spawn,"
 			+ "Spellshaper,"
 			+ "Spirit,"
+			+ "Spy,"
 			+ "Survivor,"
 			+ "Thopter,"
-			+ "Toy,"
-			+ "Vampire,"
-			+ "Villain",
+			+ "Toy",
 
-			  "Warlock,"
+			  "Vampire,"
+			+ "Villain,"
+			+ "Warlock,"
 			+ "Warrior,"
 			+ "Werewolf,"
 			+ "Wizard,"
@@ -1608,6 +1649,7 @@ languages := [
 		is_case			  : match@(match: "(?i)Caso")
 		is_room			  : match@(match: "(?i)Sala")
 		is_adventure	  : match@(match: "(?i)Aventura")
+		is_omen			  : match@(match: "(?i)Presagio")
 		is_nyx			  : match@(match: "(?i) encantamiento")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Vehículo")
@@ -1726,8 +1768,9 @@ languages := [
 			+ "Equipo,"
 			+ "Fortificación,"
 			+ "Incubadora,"
+			+ "Libro,"
 			+ "Mapa,"
-			+ "Mutagen,"
+			+ "Mutágeno,"
 			+ "Oro,"
 			+ "Piedra,"
 			+ "Piedra de poder,"
@@ -1759,10 +1802,10 @@ languages := [
 			+ "Cartucho,"
 			+ "Caso,"
 			+ "Clase,"
+			+ "Complot,"
 			+ "Fragmento,"
 			+ "Maldición,"
 			+ "Papel,"
-			+ "Plan,"
 			+ "Runa,"
 			+ "Saga,"
 			+ "Sala,"
@@ -1778,6 +1821,7 @@ languages := [
 			+ "Aminatou,"
 			+ "Angrath,"
 			+ "Arlinn,"
+			+ "Arzakon,"
 			+ "Ashiok,"
 			+ "Bahamut,"
 			+ "Basri,"
@@ -1789,16 +1833,20 @@ languages := [
 			+ "Dakkon,"
 			+ "Daretti,"
 			+ "Davriel,"
+			+ "Dellian,"
 			+ "Dihada,"
 			+ "Domri,"
 			+ "Dovin,"
+			+ "Dyfed,"
 			+ "Ellywick,"
 			+ "Elminster,"
 			+ "Elspeth,"
 			+ "Estrid,"
+			+ "Feroz,"
 			+ "Freyalise,"
 			+ "Garruk,"
 			+ "Gideon,"
+			+ "Greensleeves,"
 			+ "Grist,"
 			+ "Guff,"
 			+ "Huatli,"
@@ -1830,6 +1878,7 @@ languages := [
 			+ "Samut,"
 			+ "Sarkhan,"
 			+ "Serra,"
+			+ "Sifa,"
 			+ "Sivitri,"
 			+ "Sorin,"
 			+ "Szat,"
@@ -1838,6 +1887,7 @@ languages := [
 			+ "Teferi,"
 			+ "Teyo,"
 			+ "Tezzeret,"
+			+ "Thomil,"
 			+ "Tibalt,"
 			+ "Tyvar,"
 			+ "Ugin,"
@@ -1848,6 +1898,7 @@ languages := [
 			+ "Vronos,"
 			+ "Will,"
 			+ "Windgrace,"
+			+ "Worzel,"
 			+ "Wrenn,"
 			+ "Xenagos,"
 			+ "Yanggu,"
@@ -1879,6 +1930,7 @@ languages := [
 			+ "Ballena,"
 			+ "Basilisco,"
 			+ "Bestia,"
+			+ "Bisonte,"
 			+ "Brillo,"
 			+ "Buey",
 
@@ -1889,6 +1941,7 @@ languages := [
 			+ "Camárido,"
 			+ "Camello,"
 			+ "Cangrejo,"
+			+ "Canguro,"
 			+ "Capibara,"
 			+ "Caracol,"
 			+ "Caribú,"
@@ -1941,6 +1994,7 @@ languages := [
 			+ "Esqueleto,"
 			+ "Estrella-de-mar,"
 			+ "Etergénito,"
+			+ "Eterno,"
 			+ "Extraño",
 
 			  "Felino,"
@@ -1949,7 +2003,8 @@ languages := [
 			+ "Fractal,"
 			+ "Fragmentado",
 
-			  "Gárgola,"
+			  "Gamma,"
+			+ "Gárgola,"
 			+ "Germen,"
 			+ "Gigante,"
 			+ "Gith,"
@@ -1979,9 +2034,11 @@ languages := [
 
 			  "Ilusión,"
 			+ "Infernal,"
+			+ "Inhumano,"
 			+ "Insecto",
 
 			  "Jabalí,"
+			+ "Jirafa,"
 			+ "Juguete",
 
 			  "Kavu,"
@@ -1989,12 +2046,14 @@ languages := [
 			+ "Kithkin,"
 			+ "Kóbold,"
 			+ "Kor,"
-			+ "Kraken",
+			+ "Kraken,"
+			+ "Kree",
 
 			  "Lagarto,"
 			+ "Lamia,"
 			+ "Lammasu,"
 			+ "Langosta,"
+			+ "Lémur,"
 			+ "Leviatán,"
 			+ "Lhurgoyf,"
 			+ "Licántropo,"
@@ -2030,6 +2089,7 @@ languages := [
 			+ "Operario,"
 			+ "Orco,"
 			+ "Orgg,"
+			+ "Ornitorrinco,"
 			+ "Oso,"
 			+ "Ostra,"
 			+ "Oufé,"
@@ -2054,7 +2114,8 @@ languages := [
 			+ "Puercoespín,"
 			+ "Pulpo",
 
-			  "Quimera",
+			  "Qu,"
+			+ "Quimera",
 
 			  "Rana,"
 			+ "Rata,"
@@ -2074,6 +2135,7 @@ languages := [
 			+ "Simbionte,"
 			+ "Simio,"
 			+ "Sirena,"
+			+ "Skrull,"
 			+ "Slit,"
 			+ "Soltari,"
 			+ "Sombra,"
@@ -2100,7 +2162,8 @@ languages := [
 
 			  "Unicornio,"
 			+ "Uómbat,"
-			+ "Uro",
+			+ "Uro,"
+			+ "Utrom",
 
 			  "Vampiro,"
 			+ "Vedalken,"
@@ -2148,6 +2211,7 @@ languages := [
 			  "Ejército,"
 			+ "Encarnación,"
 			+ "Engendro,"
+			+ "Espia,"
 			+ "Espíritu,"
 			+ "Esqueleto,"
 			+ "Explorador,"
@@ -2162,6 +2226,7 @@ languages := [
 			+ "Licántropo",
 
 			  "Magistrado,"
+			+ "Mago,"
 			+ "Mercenario,"
 			+ "Metabolizador,"
 			+ "Místico,"
@@ -2359,6 +2424,7 @@ languages := [
 		is_case			  : match@(match: "(?i)Affaire")
 		is_room			  : match@(match: "(?i)Pièce")
 		is_adventure	  : match@(match: "(?i)Aventure")
+		is_omen			  : match@(match: "(?i)Présage")
 		is_nyx			  : match@(match: "(?i)-enchantement")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Véhicule")
@@ -2478,8 +2544,9 @@ languages := [
 			+ "Indice,"
 			+ "Infinité,"
 			+ "Lithoforce,"
+			+ "Livre,"
 			+ "Module de descente,"
-			+ "Mutagen,"
+			+ "Mutagène,"
 			+ "Nourriture,"
 			+ "Or,"
 			+ "Pierre,"
@@ -2511,9 +2578,9 @@ languages := [
 			+ "Classe,"
 			+ "Éclat,"
 			+ "Malédiction,"
+			+ "Manigance,"
 			+ "Passé,"
 			+ "Pièce,"
-			+ "Plan,"
 			+ "Reliquaire,"
 			+ "Rôle,"
 			+ "Rune,"
@@ -2529,6 +2596,7 @@ languages := [
 			+ "Aminatou,"
 			+ "Angrath,"
 			+ "Arlinn,"
+			+ "Arzakon,"
 			+ "Ashiok,"
 			+ "Bahamut,"
 			+ "Basri,"
@@ -2541,16 +2609,20 @@ languages := [
 			+ "Dakkon,"
 			+ "Daretti,"
 			+ "Davriel,"
+			+ "Dellian,"
 			+ "Dihada,"
 			+ "Domri,"
 			+ "Dovin,"
+			+ "Dyfed,"
 			+ "Ellywick,"
 			+ "Elminster,"
 			+ "Elspeth,"
 			+ "Estrid,"
+			+ "Feroz,"
 			+ "Freyalise,"
 			+ "Garruk,"
 			+ "Gideon,"
+			+ "Greensleeves,"
 			+ "Grist,"
 			+ "Huatli,"
 			+ "Jace,"
@@ -2581,6 +2653,7 @@ languages := [
 			+ "Samut,"
 			+ "Sarkhan,"
 			+ "Serra,"
+			+ "Sifa,"
 			+ "Sivitri,"
 			+ "Sorin,"
 			+ "Szat,"
@@ -2589,6 +2662,7 @@ languages := [
 			+ "Téfeiri,"
 			+ "Teyo,"
 			+ "Tezzeret,"
+			+ "Thomil,"
 			+ "Tibalt,"
 			+ "Tyvar,"
 			+ "Ugin,"
@@ -2599,6 +2673,7 @@ languages := [
 			+ "Vraska,"
 			+ "Vronos,"
 			+ "Will,"
+			+ "Worzel,"
 			+ "Wrenn,"
 			+ "Xénagos,"
 			+ "Yanggu,"
@@ -2623,6 +2698,7 @@ languages := [
 			+ "Basilic,"
 			+ "Belette,"
 			+ "Bête,"
+			+ "Bison,"
 			+ "Blaireau,"
 			+ "Bosquérisson,"
 			+ "Bovidé",
@@ -2685,20 +2761,23 @@ languages := [
 			+ "Éponge,"
 			+ "Épouvantail,"
 			+ "Escargot,"
-			+ "Esprit,"
-			+ "Éthérien,"
-			+ "Étoile de mer",
+			+ "Esprit",
 
-			  "Évolien,"
+			  "Éternel,"
+			+ "Éthérien,"
+			+ "Étoile de mer,"
+			+ "Évolien,"
 			+ "Extraterrestre",
 
 			  "Fongus,"
 			+ "Fractale,"
 			+ "Furet",
 
-			  "Gargouille,"
+			  "Gamma,"
+			+ "Gargouille,"
 			+ "Géant,"
 			+ "Germe,"
+			+ "Girafe,"
 			+ "Gith,"
 			+ "Glouton,"
 			+ "Gnoll,"
@@ -2730,19 +2809,24 @@ languages := [
 
 			  "Illusion,"
 			+ "Incarnation,"
+			+ "Inhumain,"
 			+ "Insecte",
 
 			  "Jouet",
 
-			  "Kavru,"
+			  "Kangourou,"
+			+ "Kavru,"
 			+ "Kirin,"
 			+ "Kobold,"
-			+ "Kraken",
+			+ "Kraken,"
+			+ "Kree,"
+			+ "Kwe",
 
 			  "Lama,"
 			+ "Lamassu,"
 			+ "Lamie,"
 			+ "Lapin,"
+			+ "Lémure,"
 			+ "Léviathan,"
 			+ "Lézard,"
 			+ "Lhurgoyf,"
@@ -2786,6 +2870,7 @@ languages := [
 			+ "Ondin,"
 			+ "Opossum,"
 			+ "Orgg,"
+			+ "Ornithorynque,"
 			+ "Orphe,"
 			+ "Orque,"
 			+ "Ours,"
@@ -2830,6 +2915,7 @@ languages := [
 			+ "Servo,"
 			+ "Singe,"
 			+ "Sirène,"
+			+ "Skrull,"
 			+ "Slith,"
 			+ "Slivoïde",
 
@@ -2856,6 +2942,8 @@ languages := [
 			+ "Triskelavite,"
 			+ "Troll,"
 			+ "Tyrannœil",
+
+			  "Utrom",
 
 			  "Vampire,"
 			+ "Vedalken,"
@@ -2897,12 +2985,14 @@ languages := [
 			+ "Djaggernaut,"
 			+ "Docteur,"
 			+ "Drone,"
-			+ "Druide,"
-			+ "Éclaireur,"
-			+ "Engeance,"
-			+ "Esprit",
+			+ "Druide",
 
-			  "Gredin,"
+			  "Éclaireur,"
+			+ "Engeance,"
+			+ "Ensorceleur,"
+			+ "Espion,"
+			+ "Esprit,"
+			+ "Gredin,"
 			+ "Gréeur,"
 			+ "Guerrier,"
 			+ "Héros,"
@@ -2910,22 +3000,23 @@ languages := [
 			+ "Incarnation,"
 			+ "Jouet,"
 			+ "Léviathan,"
-			+ "Loup-garou,"
-			+ "Mécanoptère,"
+			+ "Loup-garou",
+
+			  "Mécanoptère,"
 			+ "Méchant,"
 			+ "Mercenaire,"
 			+ "Mignon,"
 			+ "Moine,"
 			+ "Monture,"
 			+ "Mutant,"
-			+ "Mystique",
-
-			  "Négociant,"
+			+ "Mystique,"
+			+ "Négociant,"
 			+ "Ninja,"
 			+ "Noble,"
 			+ "Nomade,"
-			+ "Œuf,"
-			+ "Paysan,"
+			+ "Œuf",
+
+			  "Paysan,"
 			+ "Pilote,"
 			+ "Pirate,"
 			+ "Praetor,"
@@ -3115,6 +3206,7 @@ languages := [
 		is_case			  : match@(match: "(?i)Caso")
 		is_room			  : match@(match: "(?i)Stanza")
 		is_adventure	  : match@(match: "(?i)Avventura")
+		is_omen			  : match@(match: "(?i)Presagio")
 		is_nyx			  : match@(match: "(?i) Incantesimo")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Veicolo")
@@ -3234,8 +3326,9 @@ languages := [
 			+ "Indizio,"
 			+ "Infinito,"
 			+ "Lander,"
+			+ "Libro,"
 			+ "Mappa,"
-			+ "Mutagen,"
+			+ "Mutagene,"
 			+ "Oro,"
 			+ "Pietra,"
 			+ "Pietra del Potere,"
@@ -3268,7 +3361,7 @@ languages := [
 			+ "Caso,"
 			+ "Classe,"
 			+ "Frammento,"
-			+ "Plan,"
+			+ "Progetto,"
 			+ "Runa,"
 			+ "Ruolo,"
 			+ "Saga,"
@@ -3285,6 +3378,7 @@ languages := [
 			+ "Aminatou,"
 			+ "Angrath,"
 			+ "Arlinn,"
+			+ "Arzakon,"
 			+ "Ashiok,"
 			+ "Bahamut,"
 			+ "Basri,"
@@ -3296,16 +3390,20 @@ languages := [
 			+ "Dakkon,"
 			+ "Daretti,"
 			+ "Davriel,"
+			+ "Dellian,"
 			+ "Dihada,"
 			+ "Domri,"
 			+ "Dovin,"
+			+ "Dyfed,"
 			+ "Ellywick,"
 			+ "Elminster,"
 			+ "Elspeth,"
 			+ "Estrid,"
+			+ "Feroz,"
 			+ "Freyalise,"
 			+ "Garruk,"
 			+ "Gideon,"
+			+ "Greensleeves,"
 			+ "Grist,"
 			+ "Guff,"
 			+ "Huatli,"
@@ -3337,6 +3435,7 @@ languages := [
 			+ "Samut,"
 			+ "Sarkhan,"
 			+ "Serra,"
+			+ "Sifa,"
 			+ "Sivitri,"
 			+ "Sorin,"
 			+ "Szat,"
@@ -3345,6 +3444,7 @@ languages := [
 			+ "Teferi,"
 			+ "Teyo,"
 			+ "Tezzeret,"
+			+ "Thomil,"
 			+ "Tibalt,"
 			+ "Tyvar,"
 			+ "Ugin,"
@@ -3355,6 +3455,7 @@ languages := [
 			+ "Vronos,"
 			+ "Will,"
 			+ "Windgrace,"
+			+ "Worzel,"
 			+ "Wrenn,"
 			+ "Xenagos,"
 			+ "Yanggu,"
@@ -3381,6 +3482,7 @@ languages := [
 			+ "Basilisco,"
 			+ "Beholder,"
 			+ "Bestia,"
+			+ "Bisonte,"
 			+ "Bizzarria,"
 			+ "Bradipo,"
 			+ "Bue,"
@@ -3389,6 +3491,7 @@ languages := [
 			  "Calamaro,"
 			+ "Camarid,"
 			+ "Cammello,"
+			+ "Canguro,"
 			+ "Canide,"
 			+ "Capibara,"
 			+ "Capra,"
@@ -3427,7 +3530,8 @@ languages := [
 			+ "Elefante,"
 			+ "Elementale,"
 			+ "Elfo,"
-			+ "Eteride",
+			+ "Eteride,"
+			+ "Eterno",
 
 			  "Felino,"
 			+ "Fenice,"
@@ -3437,11 +3541,13 @@ languages := [
 			+ "Fungus,"
 			+ "Furetto",
 
-			  "Gargoyle,"
+			  "Gamma,"
+			+ "Gargoyle,"
 			+ "Genio,"
 			+ "Ghiottone,"
 			+ "Gigante,"
 			+ "Giocattolo,"
+			+ "Giraffa,"
 			+ "Gith,"
 			+ "Gnoll,"
 			+ "Gnomo,"
@@ -3463,6 +3569,7 @@ languages := [
 			+ "Incubo,"
 			+ "Infernale,"
 			+ "Insetto,"
+			+ "Inumano,"
 			+ "Ippogrifo,"
 			+ "Ippopotamo,"
 			+ "Istrice",
@@ -3473,13 +3580,15 @@ languages := [
 			+ "Kirin,"
 			+ "Kithkin,"
 			+ "Kor,"
-			+ "Kraken",
+			+ "Kraken,"
+			+ "Kree",
 
 			  "Lama,"
 			+ "Lamia,"
 			+ "Lammasu,"
 			+ "Lampidottero,"
 			+ "Latore,"
+			+ "Lemure,"
 			+ "Leviatano,"
 			+ "Lhurgoyf,"
 			+ "Lontra,"
@@ -3516,6 +3625,7 @@ languages := [
 			+ "Opossum,"
 			+ "Orco,"
 			+ "Orgg,"
+			+ "Ornitorinco,"
 			+ "Orrore,"
 			+ "Orso,"
 			+ "Ostrica,"
@@ -3542,6 +3652,8 @@ languages := [
 			  "Pungiglione,"
 			+ "Pungitore,"
 			+ "Puzzola",
+
+			  "Qu",
 
 			  "Ragno,"
 			+ "Rana,"
@@ -3573,6 +3685,7 @@ languages := [
 			+ "Simbionte,"
 			+ "Sintetico,"
 			+ "Sirena,"
+			+ "Skrull,"
 			+ "Slith,"
 			+ "Soltari,"
 			+ "Spaventapasseri,"
@@ -3583,8 +3696,9 @@ languages := [
 			+ "Squalo,"
 			+ "Stella Marina,"
 			+ "Sterminatore,"
-			+ "Strega,"
-			+ "Surrakar",
+			+ "Strega",
+
+			  "Surrakar",
 
 			  "Talpa,"
 			+ "Tartaruga,"
@@ -3607,7 +3721,8 @@ languages := [
 			+ "Umano,"
 			+ "Unicorno,"
 			+ "Uovo,"
-			+ "Uri",
+			+ "Uri,"
+			+ "Utrom",
 
 			  "Vampiro,"
 			+ "Vedalken,"
@@ -3693,6 +3808,7 @@ languages := [
 			+ "Servo,"
 			+ "Soldato,"
 			+ "Sopravvissuto,"
+			+ "Spia,"
 			+ "Spirito,"
 			+ "Sterminatore,"
 			+ "Tottero,"
@@ -3868,6 +3984,7 @@ languages := [
 		is_case			  : match@(match: "(?i)事件")
 		is_room			  : match@(match: "(?i)部屋")
 		is_adventure	  : match@(match: "(?i)出来事")
+		is_omen			  : match@(match: "(?i)前兆")
 		is_nyx			  : match@(match: "(?i)・エンチャント")
 		is_saga			  : match@(match: "(?i)英雄譚")
 		is_vehicle        : match@(match: "(?i)機体")
@@ -3976,8 +4093,7 @@ languages := [
 		message_drops_no_lands             : "!! 土地が見つかりません。土地ドロップに当たる確率は 0% !!"
 
 		word_list_artifact:
-			  "Mutagen,"
-			+ "Terminus,"
+			  "Terminus,"
 			+ "アトラクション,"
 			+ "宝物,"
 			+ "着陸船,"
@@ -3991,12 +4107,14 @@ languages := [
 			+ "培養器,"
 			+ "宇宙船,"
 			+ "ストーン,"
+			+ "ミュータンジェン,"
 			+ "手掛かり,"
 			+ "城砦,"
 			+ "装備品,"
 			+ "食物,"
 			+ "道具,"
-			+ "ボブルヘッド",
+			+ "ボブルヘッド,"
+			+ "本",
 		word_list_battle:
 			  "包囲戦",
 		word_list_dungeon:
@@ -4014,14 +4132,14 @@ languages := [
 			+ "洞窟,"
 			+ "門",
 		word_list_enchantment:
-			  "Plan,"
-			+ "カルトーシュ,"
+			  "カルトーシュ,"
 			+ "祭殿,"
 			+ "背景,"
 			+ "破片,"
 			+ "役割,"
 			+ "事件,"
 			+ "クラス,"
+			+ "プラン,"
 			+ "ルーン,"
 			+ "英雄譚,"
 			+ "部屋,"
@@ -4034,7 +4152,14 @@ languages := [
 			+ "出来事,"
 			+ "講義",
 		word_list_planeswalker:
-			  "アジャニ,"
+			  "Arzakon,"
+			+ "Dyfed,"
+			+ "Feroz,"
+			+ "Greensleeves,"
+			+ "Sifa,"
+			+ "Thomil,"
+			+ "Worzel,"
+			+ "アジャニ,"
 			+ "アショク,"
 			+ "アミナトゥ,"
 			+ "アーリン,"
@@ -4098,6 +4223,7 @@ languages := [
 			+ "ゼナゴス,"
 			+ "セラ,"
 			+ "ディハーダ,"
+			+ "テリアン,"
 			+ "テフェリー,"
 			+ "テゼレット,"
 			+ "ティボルト,"
@@ -4134,6 +4260,7 @@ languages := [
 			+ "イリュージョン,"
 			+ "インプ,"
 			+ "インカーネーション,"
+			+ "インヒューマン,"
 			+ "イカ,"
 			+ "— イタチ,"
 			+ "イエティ",
@@ -4171,12 +4298,15 @@ languages := [
 			+ "カリブー,"
 			+ "カニ,"
 			+ "カエル,"
+			+ "ガンマ,"
 			+ "ガーゴイル,"
 			+ "神,"
 			+ "カバ,"
+			+ "カンガルー,"
 			+ "カヴー,"
 			+ "カワウソ,"
 			+ "カキ,"
+			+ "カモノハシ,"
 			+ "カカシ,"
 			+ "カタツムリ,"
 			+ "壁",
@@ -4185,9 +4315,11 @@ languages := [
 			+ "キャリアー,"
 			+ "キマイラ,"
 			+ "狐,"
+			+ "キリン,"
 			+ "ギス,"
 			+ "麒麟,"
 			+ "キスキン,"
+			+ "キツネザル,"
 			+ "奇魔",
 
 			  "組立作業員,"
@@ -4198,6 +4330,8 @@ languages := [
 			+ "グリフィン,"
 			+ "クラゲ,"
 			+ "クラーケン,"
+			+ "クリー,"
+			+ "ク族,"
 			+ "黒貂,"
 			+ "蜘蛛,"
 			+ "吸血鬼,"
@@ -4248,6 +4382,7 @@ languages := [
 
 			  "墨獣,"
 			+ "スケルトン,"
+			+ "スクラル,"
 			+ "スカンク,"
 			+ "スリス,"
 			+ "スリヴァー,"
@@ -4273,6 +4408,7 @@ languages := [
 			  "ダーレク,"
 			+ "ダウスィー,"
 			+ "卵,"
+			+ "工ターナル,"
 			+ "ダニ,"
 			+ "タコ,"
 			+ "多相の戦士,"
@@ -4320,6 +4456,7 @@ languages := [
 			+ "ノッグル",
 
 			  "バジリスク,"
+			+ "バイソン,"
 			+ "運び手,"
 			+ "ハリモグラ,"
 			+ "墓生まれ,"
@@ -4387,7 +4524,8 @@ languages := [
 			  "ヤギ,"
 			+ "ヤマアラシ",
 
-			  "ユニコーン",
+			  "ユニコーン,"
+			+ "ユートロム",
 
 			  "ラクダ,"
 			+ "ラミア,"
@@ -4459,7 +4597,8 @@ languages := [
 			+ "スカウト,"
 			+ "スケルトン,"
 			+ "スペルシェイパー,"
-			+ "スピリット",
+			+ "スピリット,"
+			+ "スパイ",
 
 			  "神秘家,"
 			+ "生存者,"
@@ -4505,7 +4644,8 @@ languages := [
 			  "ホラー,"
 			+ "法務官",
 
-			  "末裔",
+			  "末裔,"
+			+ "魔術師",
 
 			  "ミニオン,"
 			+ "ミュータント",
@@ -4687,6 +4827,7 @@ languages := [
 		is_case			  : match@(match: "(?i)직업")
 		is_room			  : match@(match: "(?i)방")
 		is_adventure	  : match@(match: "(?i)모험")
+		is_omen			  : match@(match: "(?i)전조")
 		is_nyx			  : match@(match: "(?i)부여마법 ")
 		is_saga			  : match@(match: "(?i)서사시")
 		is_vehicle        : match@(match: "(?i)탑승물")
@@ -4797,6 +4938,7 @@ languages := [
 		word_list_artifact:
 			  "Attraction,"
 			+ "Bobblehead,"
+			+ "Book,"
 			+ "Infinity,"
 			+ "Junk,"
 			+ "Lander,"
@@ -4854,21 +4996,29 @@ languages := [
 			+ "전조",
 		word_list_planeswalker:
 			  "Aminatou,"
+			+ "Arzakon,"
 			+ "Comet,"
 			+ "Dack,"
 			+ "Daretti,"
+			+ "Dellian,"
+			+ "Dyfed,"
 			+ "Estrid,"
+			+ "Feroz,"
 			+ "Freyalise,"
+			+ "Greensleeves,"
 			+ "Guff,"
 			+ "Jared,"
 			+ "Jeska,"
 			+ "Koth,"
 			+ "Quintorius,"
+			+ "Sifa,"
 			+ "Sivitri,"
 			+ "Szat,"
+			+ "Thomil,"
 			+ "Venser,"
 			+ "Vronos,"
 			+ "Windgrace,"
+			+ "Worzel,"
 			+ "개럭,"
 			+ "그리스트,"
 			+ "기디온,"
@@ -4964,6 +5114,7 @@ languages := [
 
 			  "기계,"
 			+ "기린,"
+			+ "기린,"
 			+ "기스",
 
 			  "나무늘보,"
@@ -5014,6 +5165,7 @@ languages := [
 			  "바늘두더지,"
 			+ "바다코끼리,"
 			+ "바실리스크,"
+			+ "바이슨,"
 			+ "박쥐,"
 			+ "반신,"
 			+ "뱀,"
@@ -5074,9 +5226,11 @@ languages := [
 			+ "엘크,"
 			+ "엘프,"
 			+ "여우,"
+			+ "여우원숭이,"
 			+ "염소,"
 			+ "영양,"
 			+ "오록스,"
+			+ "오리너구리,"
 			+ "오소리,"
 			+ "오우거,"
 			+ "오징어,"
@@ -5119,6 +5273,7 @@ languages := [
 
 			  "카부,"
 			+ "카피바라,"
+			+ "캥거루,"
 			+ "켄타우로스,"
 			+ "코끼리,"
 			+ "코르,"
@@ -5394,6 +5549,7 @@ languages := [
 		is_case			  : match@(match: "(?i)Caso")
 		is_room			  : match@(match: "(?i)Sala")
 		is_adventure	  : match@(match: "(?i)Aventura")
+		is_omen			  : match@(match: "(?i)Presságio")
 		is_nyx			  : match@(match: "(?i) Encantamento")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Veículo")
@@ -5505,6 +5661,7 @@ languages := [
 			  "Aparelho,"
 			+ "Attraction,"
 			+ "Bonequinho,"
+			+ "Book,"
 			+ "Comida,"
 			+ "Equipamento,"
 			+ "Fortificação,"
@@ -5564,6 +5721,7 @@ languages := [
 			+ "Aminatou,"
 			+ "Angrath,"
 			+ "Arlinn,"
+			+ "Arzakon,"
 			+ "Ashiok,"
 			+ "Bahamut,"
 			+ "Basri,"
@@ -5574,16 +5732,20 @@ languages := [
 			+ "Dakkon,"
 			+ "Daretti,"
 			+ "Davriel,"
+			+ "Dellian,"
 			+ "Dihada,"
 			+ "Domri,"
 			+ "Dovin,"
+			+ "Dyfed,"
 			+ "Ellywick,"
 			+ "Elminster,"
 			+ "Elspeth,"
 			+ "Estrid,"
+			+ "Feroz,"
 			+ "Freyalise,"
 			+ "Garruk,"
 			+ "Gideon,"
+			+ "Greensleeves,"
 			+ "Grist,"
 			+ "Guff,"
 			+ "Huatli,"
@@ -5616,6 +5778,7 @@ languages := [
 			+ "Samut,"
 			+ "Sarkhan,"
 			+ "Serra,"
+			+ "Sifa,"
 			+ "Sivitri,"
 			+ "Sorin,"
 			+ "Szat,"
@@ -5624,6 +5787,7 @@ languages := [
 			+ "Teferi,"
 			+ "Teyo,"
 			+ "Tezzeret,"
+			+ "Thomil,"
 			+ "Tibalt,"
 			+ "Tyvar,"
 			+ "Ugin,"
@@ -5634,6 +5798,7 @@ languages := [
 			+ "Vronos,"
 			+ "Will,"
 			+ "Windgrace,"
+			+ "Worzel,"
 			+ "Wrenn,"
 			+ "Xenagos,"
 			+ "Yanggu,"
@@ -5665,6 +5830,7 @@ languages := [
 			+ "Basilisco,"
 			+ "Beliscador,"
 			+ "Besta,"
+			+ "Bisão,"
 			+ "Bizarro,"
 			+ "Bode,"
 			+ "Boi,"
@@ -5675,6 +5841,7 @@ languages := [
 			  "Camárida,"
 			+ "Camelo,"
 			+ "Camundongo,"
+			+ "Canguru,"
 			+ "Capivara,"
 			+ "Caranguejo,"
 			+ "Carcaju,"
@@ -5737,6 +5904,7 @@ languages := [
 			+ "Gênio,"
 			+ "Germe,"
 			+ "Gigante,"
+			+ "Girafa,"
 			+ "Gith,"
 			+ "Gnoll,"
 			+ "Gnomo,"
@@ -5775,6 +5943,7 @@ languages := [
 			  "Lagarto,"
 			+ "Lâmia,"
 			+ "Lammasu,"
+			+ "Lêmure,"
 			+ "Lesma,"
 			+ "Lesma,"
 			+ "Leviatã,"
@@ -5813,6 +5982,7 @@ languages := [
 			+ "Operário de Linha de Montagem,"
 			+ "Orc,"
 			+ "Orgg,"
+			+ "Ornitorrinco,"
 			+ "Ostra,"
 			+ "Ovelha,"
 			+ "Ovo",
@@ -6134,9 +6304,10 @@ languages := [
 		is_wastes         : match@(match: "(?i)Пустоши")
 
 		is_class		  : match@(match: "(?i)Класс")
-		is_case			  : match@(match: "(?i)Класс")
+		is_case			  : match@(match: "(?i)Case")
 		is_room			  : match@(match: "(?i)Комната")
 		is_adventure	  : match@(match: "(?i)Приключение")
+		is_omen			  : match@(match: "(?i)Предзнаменование")
 		is_nyx			  : match@(match: "(?i)Чары ")
 		is_saga			  : match@(match: "(?i)Сага")
 		is_vehicle        : match@(match: "(?i)Машина")
@@ -6247,6 +6418,7 @@ languages := [
 		word_list_artifact:
 			  "Attraction,"
 			+ "Bobblehead,"
+			+ "Book,"
 			+ "Infinity,"
 			+ "Junk,"
 			+ "Lander,"
@@ -6304,18 +6476,26 @@ languages := [
 			+ "Урок",
 		word_list_planeswalker:
 			  "Aminatou,"
+			+ "Arzakon,"
 			+ "Comet,"
 			+ "Dack,"
+			+ "Dellian,"
+			+ "Dyfed,"
 			+ "Estrid,"
+			+ "Feroz,"
 			+ "Freyalise,"
+			+ "Greensleeves,"
 			+ "Guff,"
 			+ "Jared,"
 			+ "Jeska,"
 			+ "Quintorius,"
+			+ "Sifa,"
 			+ "Sivitri,"
 			+ "Szat,"
+			+ "Thomil,"
 			+ "Vronos,"
 			+ "Windgrace,"
+			+ "Worzel,"
 			+ "Аджани,"
 			+ "Анграт,"
 			+ "Арлинн,"
@@ -6399,6 +6579,7 @@ languages := [
 			+ "Бегемот,"
 			+ "Белка,"
 			+ "Бес,"
+			+ "Бизон,"
 			+ "Бобр,"
 			+ "Бог,"
 			+ "Броненосец,"
@@ -6459,6 +6640,8 @@ languages := [
 			+ "Ёжик,"
 			+ "Енот",
 
+			  "Жирафа",
+
 			  "Зверь,"
 			+ "Злобоглаз,"
 			+ "Змей,"
@@ -6478,6 +6661,7 @@ languages := [
 			+ "Карга,"
 			+ "Карибу,"
 			+ "Карлик,"
+			+ "Кенгуру,"
 			+ "Кентавр,"
 			+ "Кирин,"
 			+ "Кискен,"
@@ -6504,6 +6688,7 @@ languages := [
 			+ "Ламмасу,"
 			+ "Ласка,"
 			+ "Левиафан,"
+			+ "Лемур,"
 			+ "Ленивец,"
 			+ "Лесовик,"
 			+ "Летучая-мышь,"
@@ -6594,10 +6779,9 @@ languages := [
 			+ "Трулл,"
 			+ "Тюлень",
 
-			  "Ужас,"
-			+ "Улитка,"
-			+ "Устрица,"
-			+ "Уф",
+			  "Уф",
+
+			  "утконос",
 
 			  "Феникс,"
 			+ "Фея,"
@@ -6862,6 +7046,7 @@ languages := [
 		is_case			  : match@(match: "(?i)案件")
 		is_room			  : match@(match: "(?i)房间")
 		is_adventure	  : match@(match: "(?i)历险")
+		is_omen			  : match@(match: "(?i)预兆")
 		is_nyx			  : match@(match: "(?i)结界(生物|神器)")
 		is_saga			  : match@(match: "(?i)传纪")
 		is_vehicle        : match@(match: "(?i)载具")
@@ -6972,6 +7157,7 @@ languages := [
 		word_list_artifact:
 			  "Attraction,"
 			+ "Bobblehead,"
+			+ "Book,"
 			+ "Infinity,"
 			+ "Junk,"
 			+ "Lander,"
@@ -7028,11 +7214,19 @@ languages := [
 			+ "陷阱,"
 			+ "预兆",
 		word_list_planeswalker:
-			  "Comet,"
+			  "Arzakon,"
+			+ "Comet,"
+			+ "Dellian,"
+			+ "Dyfed,"
 			+ "Estrid,"
+			+ "Feroz,"
+			+ "Greensleeves,"
 			+ "Guff,"
+			+ "Sifa,"
+			+ "Thomil,"
 			+ "Vronos,"
 			+ "Windgrace,"
+			+ "Worzel,"
 			+ "乌金,"
 			+ "伊尔明斯特,"
 			+ "克撒,"
@@ -7229,6 +7423,7 @@ languages := [
 			+ "犀牛,"
 			+ "犰狳,"
 			+ "狐,"
+			+ "狐猴,"
 			+ "独眼巨人,"
 			+ "独角兽,"
 			+ "狮鹫",
@@ -7297,33 +7492,36 @@ languages := [
 			+ "蟹,"
 			+ "蠕虫,"
 			+ "袋熊,"
+			+ "袋鼠,"
 			+ "裂片妖,"
 			+ "触手,"
 			+ "诺格,"
 			+ "象,"
-			+ "豪猪,"
-			+ "豺狼,"
-			+ "豺狼人",
+			+ "豪猪",
 
-			  "负鼠,"
+			  "豺狼,"
+			+ "豺狼人,"
+			+ "负鼠,"
 			+ "轻灵,"
 			+ "造妖,"
 			+ "道西,"
 			+ "郊狼,"
 			+ "野兽,"
+			+ "野牛,"
 			+ "野猪,"
 			+ "钳手,"
+			+ "长颈鹿,"
 			+ "阴魂,"
 			+ "阿托格,"
 			+ "雕像,"
 			+ "雪怪,"
-			+ "雪貂,"
-			+ "非瑞人,"
+			+ "雪貂",
+
+			  "非瑞人,"
 			+ "章人,"
 			+ "章鱼,"
-			+ "飞马",
-
-			  "食人魔,"
+			+ "飞马,"
+			+ "食人魔,"
 			+ "马,"
 			+ "驯鹿,"
 			+ "骆驼,"
@@ -7332,24 +7530,26 @@ languages := [
 			+ "骷髅妖,"
 			+ "鬣狗,"
 			+ "鬼崽,"
-			+ "鬼魂,"
-			+ "魔人,"
+			+ "鬼魂",
+
+			  "魔人,"
 			+ "魔像,"
 			+ "魔神,"
 			+ "魔鬼,"
 			+ "鱼,"
 			+ "鲨鱼,"
-			+ "鲸鱼",
-
-			  "鳄鱼,"
+			+ "鲸鱼,"
+			+ "鳄鱼,"
 			+ "鸟,"
+			+ "鸭嘴兽,"
 			+ "鹦鹉螺,"
 			+ "麋鹿,"
 			+ "麒麟,"
 			+ "黄鼠狼,"
 			+ "墨灵,"
-			+ "鼹鼠,"
-			+ "龙,"
+			+ "鼹鼠",
+
+			  "龙,"
 			+ "龙兽,"
 			+ "龙虾,"
 			+ "龟"
@@ -7593,6 +7793,7 @@ languages := [
 		is_case			  : match@(match: "(?i)案件")
 		is_room			  : match@(match: "(?i)房間")
 		is_adventure	  : match@(match: "(?i)歷險")
+		is_omen			  : match@(match: "(?i)預兆")
 		is_nyx			  : match@(match: "(?i)結界(生物|神器)")
 		is_saga			  : match@(match: "(?i)傳紀")
 		is_vehicle        : match@(match: "(?i)載具")
@@ -7703,6 +7904,7 @@ languages := [
 		word_list_artifact:
 			  "Attraction,"
 			+ "Bobblehead,"
+			+ "Book,"
 			+ "Infinity,"
 			+ "Junk,"
 			+ "Lander,"
@@ -7759,11 +7961,19 @@ languages := [
 			+ "陷阱,"
 			+ "預兆",
 		word_list_planeswalker:
-			  "Comet,"
+			  "Arzakon,"
+			+ "Comet,"
+			+ "Dellian,"
+			+ "Dyfed,"
 			+ "Estrid,"
+			+ "Feroz,"
+			+ "Greensleeves,"
 			+ "Guff,"
+			+ "Sifa,"
+			+ "Thomil,"
 			+ "Vronos,"
 			+ "Windgrace,"
+			+ "Worzel,"
 			+ "伊爾明斯特,"
 			+ "傑斯,"
 			+ "克撒,"
@@ -7955,6 +8165,7 @@ languages := [
 			+ "犀牛,"
 			+ "犰狳,"
 			+ "狐,"
+			+ "狐猴,"
 			+ "狼,"
 			+ "狼人,"
 			+ "狼獾,"
@@ -7963,10 +8174,10 @@ languages := [
 			+ "獅鷲,"
 			+ "獨眼巨人,"
 			+ "獨角獸,"
-			+ "獵犬,"
-			+ "獾",
+			+ "獵犬",
 
-			  "玩具,"
+			  "獾,"
+			+ "玩具,"
 			+ "異獅,"
 			+ "病媒,"
 			+ "真菌,"
@@ -8022,6 +8233,7 @@ languages := [
 			  "蠍子,"
 			+ "蠕蟲,"
 			+ "袋熊,"
+			+ "袋鼠,"
 			+ "裂片妖,"
 			+ "觸手,"
 			+ "诺格,"
@@ -8034,13 +8246,15 @@ languages := [
 			+ "貓鼬,"
 			+ "負鼠,"
 			+ "輕靈,"
-			+ "造妖,"
-			+ "道西",
+			+ "造妖",
 
-			  "郊狼,"
+			  "道西,"
+			+ "郊狼,"
+			+ "野牛,"
 			+ "野獸,"
 			+ "野豬,"
 			+ "钳手,"
+			+ "長頸鹿,"
 			+ "阿托格,"
 			+ "陰魂,"
 			+ "雕像,"
@@ -8050,12 +8264,12 @@ languages := [
 			+ "章魚,"
 			+ "飛馬,"
 			+ "食人魔,"
-			+ "馬,"
-			+ "馴鹿,"
-			+ "駱駝,"
-			+ "骆驼",
+			+ "馬",
 
-			  "駿鷹,"
+			  "馴鹿,"
+			+ "駱駝,"
+			+ "骆驼,"
+			+ "駿鷹,"
 			+ "驚懼獸,"
 			+ "骷髏妖,"
 			+ "鬣狗,"
@@ -8068,12 +8282,13 @@ languages := [
 			+ "魔鬼,"
 			+ "魚,"
 			+ "鯊魚,"
-			+ "鯨魚,"
-			+ "鱆人,"
-			+ "鱷魚,"
-			+ "鳥",
+			+ "鯨魚",
 
-			  "鳳凰,"
+			  "鱆人,"
+			+ "鱷魚,"
+			+ "鳥,"
+			+ "鳳凰,"
+			+ "鴨嘴獸,"
 			+ "鸚鵡螺,"
 			+ "麋鹿,"
 			+ "麒麟,"
